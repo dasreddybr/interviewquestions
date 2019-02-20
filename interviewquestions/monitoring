@@ -1,0 +1,10 @@
+Monitoring
+############
+* Why we use monitoring ?
+* What are the different tools & technologies for monitoring ?
+* How we monitor our applications & servers differently  ?
+* What is Prometheus ? How is different from other monitoring tools ?
+* What is ELK stack ?
+* Why we use Grafana ?
+* How we query different outputs in Prometheus ?
+* What type of graph can be implemented in Grafana ?

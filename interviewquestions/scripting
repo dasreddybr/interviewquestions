@@ -1,0 +1,12 @@
+Scripting (SHELL/Python)
+#######################
+Shell Task
+#############
+Task1
+Bash script to setup a whole LAMP stack, PHP app can be Wordpress and DB can be MySQL. This script should install all components needed for a Wordpress website.
+We should be able to run this script on a local machine or server and after execution of the script it should have Wordpress Running via Nginx/Apache.
+DB user for Wordpress should also be made automatically from within the script and same should be set in Wordpressconf file.
+Task 2
+Bash script to setup a whole JAVA application stack on a server.
+This script should install all components needed for a Java/Grails application.
+Once the script is run it should have the java application running and being served via Nginx on local machine or server. Sample java application can be simply a tomcat war etc

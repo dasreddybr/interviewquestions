@@ -1,0 +1,39 @@
+Jenkins
+##########
+* What is Jenkins ?
+* Why we use Jenkins ?
+* What are the other tools/technologies present in market other than
+  Jenkins for CI/CD ?
+* How to move Jenkins from one server to another ?
+* How to create Jenkins backup ?
+* What are plugins in Jenkins ?
+* What are the default plugins installed in Jenkins ?
+* How to schedule builds in Jenkins ?
+* Difference between Ant, Maven, Gradle ?
+* Difference between Jenkins, Teamcity and Bamboo ?
+* How to configure a cloud access in Jenkins ?
+* What is Jenkins slaves ?
+* How to run a groovy script in Jenkins ?
+* What is Jenkins Pipeline ?
+* What are different types of Jenkins Pipeline ?
+* What is Declarative pipeline in Jenkins ?
+* Is Jenkins a CI tool or both CI/CD ?
+* How to install Jenkins with non root access in Linux ?
+* If you have 200 employees in your company, how you can assign Jenkins
+access to these employee how you can give permission in Jenkins ?
+Jenkins Task
+##############
+Task 1
+Write the Jenkins pipeline code for Java &Php application
+Task 2
+Write the Jenkinsfile code to build a Java application with Maven with error handling
+Task 3
+Complete the following tasks:
+1. Jenkins setup on linux
+2. Setup app server with apache to deploy an app.
+3. create three jobs on jenkins
+4. Pull the code from git repo
+5. Build the application
+6. deploy an app on apache using ansible.
+7. app deploy should work with single trigger hit(git pull job -> build app -> deploy on apache server)
+8. job should get triggered on git push on git repo

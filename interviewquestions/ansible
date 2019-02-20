@@ -1,0 +1,76 @@
+Ansible
+##########
+* What is Ansible ?
+* What is Configuration Management ?
+* Is Ansible only a tool for Configuration Management ?
+* What are the components of Ansible ?
+* How Ansibleworks ?
+* What are the other tools in market other than Ansible ?
+* How Ansible is different from Chef &Puppet ?
+* What is Inventory in Ansible ?
+* What are the types of Inventories ?
+* What is play &playbook ?
+* Difference between hosts &groups ?
+* What is Roles ?
+* How to install a Role ?
+* How to install multiple roles ?
+* How to create roles ?
+* What is Dynamic Inventory & when we use it & for what ?
+* Where is the Ansible Configuration file located ?
+* What are the different ways other than SSH by which Ansible
+can connect to remote hosts ?
+* What is variable in Ansible ?
+* What are different types of variables ?
+* How to assign variables in group vars& hosts vars ?
+* Difference between File & Template directory in Roles ?
+* Difference between default &vars directory in Roles ?
+* What is Jinja 2 template ?
+* What is modules in Ansible ?
+* Difference between COPY & FILE modules ?
+* Difference between SHELL & COMMAND modules ?
+* What is Setup module ?what it does ?
+* What is register & debug in Ansible ?
+* What is changed_when in Ansible ?
+* Can we disable automatic facts gathering in Ansible ?
+* How error handling can be done in Ansible ?
+* How to ignore failed commands in Ansible ?
+* What is handlers ? Why we use Handlers in Ansible ?
+* What is Privilege Escalation in Ansible ?
+* Task to connect(SSH) Ansible to remote host using another user &
+run the playbook to the remote host using with another user ?
+* What is Ansiblevault ?
+* How to decrypt a vault file ?
+* How to encrypt a string in Ansible using AnsibleVault ?
+* If a string is encrypted in a file with a password then how to pass
+the password using parameter while decrypting ?
+* If a file is encrypted using password & password is stored in a file
+how to pass the file to decrypt the file ?
+* If a file is encrypted using password & password is also encrypted
+then how to provide the password while decrypting the file ?
+* What is Ansiblegalaxy ?
+* What is Tags in Ansible ? Why it is used ?
+* What is lookup in Ansibleplaybook ?
+* How to control the command failure in Ansible ?
+* How to debug your playbook ?
+* What is diff mode ?
+* What is Dry Run in Ansible& how to do that ?
+* What is pre task & post task ?
+* How you can run your all tasks at once ?
+* What is block in Ansible ?
+* What are different variable scopes ?
+* How variable precedence takes place ?
+* Difference between include &import ?
+* How to include custom modules in Ansible ?
+* Describe the role directory structure ?
+Ansible Task
+#############
+Task 1
+Part 1. Write Ansible playbook to automate Jenkins deployment
+Part 2. Write Ansible role to install Docker& setup Kubernetes cluster
+Automate the pipeline creation in Jenkins to create docker container & deploy on Kubernetes cluster
+Task 2
+Write ansible playbook for below tasks:
+1. Install apache server and deploy sample html application
+2. Create /var/www/example.com
+3. deploy a sample application to the above directory
+4. create a virtual host for deploy application and set it as default virtualhost

@@ -1,0 +1,37 @@
+AWS
+###########
+* What is Amazon RDS ?
+* What is EC2, S3, EBS ?
+* What is VPC & why we require to create VPC ?
+* Is is possible to scale an Ec2 Instance vertically ?
+* How is Amazon RDS, Redshift &DynamoDBdifferent ?
+* How is a spot Instance different from an On-demand Instance ?
+* How Infrastructure As Code processed & executes in AWS ?
+* If your Linux-build server getting slow down, what will you do to check ?
+* Types of EBS storage ?
+* How to backup a running instance ?
+* How to secure s3 bucket ?
+* What are the security available for users to access S3 ?
+* How to create AMI ?
+* What are the main components of CloudFormation ?
+* What is mapping in cloudformationtemplate ?
+* How is YAML different from JSON ?
+* Different types of ELB ?
+* What is autoscalinggroup ?
+* Which type of ELB is good for application load ?
+* What is difference between application load balancer & classic load balancer ?
+* What is metrics in cloudwatch ?
+* Is it possible to recover your lost private key ?
+* How can you connect your EC2 Instance if you lost your key ?
+* While connecting to your EC2 instances, what are the possible connection issues one might face ?
+* What is Subnet & how many subnets are there in a VPC ?
+* Why do we make subnets ?
+* What is routing table ?
+* How you can connect a private subnet with a public subnet ?
+* Can VPC peering possible in two different region ?
+AWS Task
+#############
+Task 1
+Write a script which will based on “Number of requests” metric of the ALB/ELB scale up webapp EC2 instances under the Load Balancer, increase AWS Elasticsearch Nodes count, and change the instance size of a MongoDB EC2 instance from m4.large to m4.xlarge. (without using ASG).
+Task 2
+Architecture Diagram for a PHP/JAVA/Python based application to be hosted on AWS with all mentions like VPC, AWS/any other cloud platform services, well defined network segregation.

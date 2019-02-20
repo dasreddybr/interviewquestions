@@ -1,0 +1,43 @@
+OpenShift
+###########
+* What is Openshift ?
+* Difference between Openshift&Kubernetes ?
+* What is Services Layer ?
+* How to expose a service in Openshift ?
+* What are the 3 components of any created project ?
+* What is router in default or in any project while creating project ?
+* What do you mean by identity provider in Openshift?
+* How do you create a New user identity ?
+* Where is the user identity located ?
+* What is project in Openshift ?
+* What are the types of permissions/role bindings in Openshift ?
+* How to check the permission of user ?
+* How to describe anything in Openshift ?
+* How to check no of projects ?
+* How to assign a role/permission to a user ?
+* What is clusterrolebinding in openshift ?
+* What is the process/working of POD creation ?
+* What is Builder POD ?
+* What is deployerPOD ?
+* How to create a New application POD ?
+* How to check logs of POD ?
+* What is Deployment Configuration & why we need DC ?
+* What is SVC & why we need SVC ?
+* What is RC (Replication Controller) ?
+* How to check DC of POD & how to edit DC ?
+* How to create route ?
+* How to expose svc ?
+* How to do rollout ?
+* How to increase replica ?
+* What is Source to Image in Openshift ?
+* What is builder image ?
+* What are the process to create source to image ?
+* How to give the Cluster role/permission to the user ?
+* How to create secure route ?
+* What is PV &PVC ?
+* What are access modes in PV ?
+* What is node selector ?
+* What are the two regions in projects ?
+* Difference between template & Deployment Configuration ?
+* How to migrate whole cluster to another ?
+* How to manually migrate container ?

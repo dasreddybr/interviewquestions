@@ -1,0 +1,55 @@
+Dockers & Containers
+######################
+* Whats is docker ?
+* Difference between container &VMs ?
+* Difference between Docker&Virtualization ?
+* Difference between container and image ?
+* How image builds ?
+* What are image layers ?
+* How image layers work ?
+* What is overlayfs ?
+* Where the image layes can be found in which directory ?
+* How can we check the content of each layer ?
+* How to check the layers stacked with image ?
+* What is Union Mount &AUFS ?
+* Why use Union mount system for Docker ?
+* What are the 3 different directories in /var/lib/docker/aufs ?
+* How to run an image ?
+* How to tag an image ?
+* How to Link one container with another ?
+* How do you sequence the containers? A first then B should execute after that ?
+* How to create a volume in docker container to store data ?
+* How to mount a local directory into a container ?
+* How to expose a port no to access container ?
+* What is entrypoint in docker ?
+* What is dockerfile ?
+* Difference between ADD & COPY parameters in dockerfile ?
+* How to create a bridge in container ?
+* How a container gets an internal IP ?
+* Can we check the process of a container inside as well as outside the container ?
+* Can we check the container process on dockerhost ?
+* How kernel isolates to run the container and how resources managed by the kernel ?
+* What is namespace and cgroups ?
+* What is docker-compose and docker-swarm ?
+* How you can give different network IP to the container ?
+* What are the parameters of dockerfile ?
+* Is there any windows container also available ?
+* How to stop a container ?
+* How to run a container in background ?
+* How to go inside a container if container is running in background ?
+* How to check running containers ?
+* How to remove an image ?
+* How to run an image which is in tar format ?
+* Command to check the process of a container ?
+* How to check resource utilisation of a container ?
+* How to create an image ?
+* How to save changes of a container ?
+* What are registries ?
+* Difference between docker commands: up, run &start ?
+* Can we run more than one process in a container ?
+Docker Task
+#############
+Part 1. Write a Docker file to create a Docker image which should have Wordpress installed
+Part 2. Write a Docker file to create a Docker image for database
+Now, use Docker compose to bring up the above Docker images as containers. Database container should mount the local host's “/etc/mysql” volume into it's (containers) /etc/mysql directory.
+
